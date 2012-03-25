@@ -16,6 +16,10 @@ public class PrimeNumbers {
 
 	public static ArrayList<Integer> factorizePrimes(int i) {
 		ArrayList<Integer> listOfNums = new ArrayList<Integer>();
+	
+		if (i > 1) {
+			listOfNums.add(1);
+		}
 		
 		return listOfNums;
 	}
