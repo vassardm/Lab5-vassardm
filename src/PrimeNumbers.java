@@ -6,10 +6,9 @@ public class PrimeNumbers {
 	public static ArrayList<Integer> generatePrimes(int n) {
 		ArrayList<Integer> ret = new ArrayList<Integer>();
 		
-		for(int candidate = 2; n >1; candidate++){
-			while(n % candidate == 0){
+		for(int candidate = 2; n > 1; candidate++){
+			for (; n % candidate == 0; n /= candidate){
 				ret.add(candidate);
-				n /= candidate;
 			}
 		}
 		return ret;
