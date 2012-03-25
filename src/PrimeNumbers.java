@@ -12,11 +12,6 @@ public class PrimeNumbers {
 				n /= candidate;
 			}
 		}
-		
-		if(n > 1){
-			ret.add(n);
-		}
-		
 		return ret;
 	}
 
