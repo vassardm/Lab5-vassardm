@@ -65,4 +65,9 @@ public class PrimeNumbersTest {
 	public void testOneFactorization() {
 		assertEquals(list(), PrimeNumbers.factorizePrimes(1));
 	}
+	
+	@Test
+	public void testTwoFactorization() {
+		assertEquals(list(1), PrimeNumbers.factorizePrimes(2));
+	}
 }
