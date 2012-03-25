@@ -70,4 +70,9 @@ public class PrimeNumbersTest {
 	public void testTwoFactorization() {
 		assertEquals(list(1), PrimeNumbers.factorizePrimes(2));
 	}
+	
+	@Test
+	public void testThreeFactorization() {
+		assertEquals(list(1, 2), PrimeNumbers.factorizePrimes(3));
+	}
 }
