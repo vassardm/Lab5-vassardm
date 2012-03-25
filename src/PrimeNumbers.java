@@ -13,6 +13,12 @@ public class PrimeNumbers {
 		}
 		return ret;
 	}
+
+	public static ArrayList<Integer> factorizePrimes(int i) {
+		ArrayList<Integer> listOfNums = new ArrayList<Integer>();
+		
+		return listOfNums;
+	}
 	
 	
 
