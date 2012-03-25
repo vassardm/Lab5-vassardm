@@ -60,4 +60,9 @@ public class PrimeNumbersTest {
 		}
 		return ret;
 	}
+	
+	@Test
+	public void testOneFactorization() {
+		assertEquals(list(), PrimeNumbers.factorizePrimes(1));
+	}
 }
