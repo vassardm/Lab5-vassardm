@@ -25,6 +25,10 @@ public class PrimeNumbers {
 			listOfNums.add(2);
 		}
 		
+		if (i > 4) {
+			listOfNums.add(3);
+		}
+		
 		
 		return listOfNums;
 	}
