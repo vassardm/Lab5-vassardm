@@ -25,6 +25,7 @@ public class PrimeNumbers {
 			listOfNums.add(2);
 		}
 		
+		
 		return listOfNums;
 	}
 	

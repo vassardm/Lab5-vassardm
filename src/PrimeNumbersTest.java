@@ -78,6 +78,6 @@ public class PrimeNumbersTest {
 	
 	@Test
 	public void testFourFactorization() {
-		assertEquals(list(2, 2), PrimeNumbers.factorizePrimes(4));
+		assertEquals(list(1, 2), PrimeNumbers.factorizePrimes(4));
 	}
 }
