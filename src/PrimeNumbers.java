@@ -16,7 +16,7 @@ public class PrimeNumbers {
 
 	public static ArrayList<Integer> factorizePrimes(int i) {
 		ArrayList<Integer> listOfNums = new ArrayList<Integer>();
-		ArrayList<Integer> candiateList = new ArrayList<Integer>();
+		ArrayList<Integer> candiateList = new ArrayList<Integer>();	
 		
 		for (int j = 1; j < i; j++) {
 			candiateList = generatePrimes(j);
@@ -24,6 +24,7 @@ public class PrimeNumbers {
 				listOfNums.add(j);
 			}		
 		}
+		
 		return listOfNums;
 	}
 	
