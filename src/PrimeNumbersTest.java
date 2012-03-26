@@ -80,4 +80,9 @@ public class PrimeNumbersTest {
 	public void testFourFactorization() {
 		assertEquals(list(1, 2), PrimeNumbers.factorizePrimes(4));
 	}
+	
+	@Test
+	public void testSixFactorization() {
+		assertEquals(list(1, 2, 3), PrimeNumbers.factorizePrimes(6));
+	}
 }
