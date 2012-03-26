@@ -91,4 +91,9 @@ public class PrimeNumbersTest {
 	public void testEightFactorization() {
 		assertEquals(list(1, 2, 3, 5, 7), PrimeNumbers.factorizePrimes(8));
 	}
+	
+	@Test
+	public void testNineFactorization() {
+		assertEquals(list(1, 2, 3, 5, 7), PrimeNumbers.factorizePrimes(9));
+	}
 }
