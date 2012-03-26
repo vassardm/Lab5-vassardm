@@ -75,4 +75,9 @@ public class PrimeNumbersTest {
 	public void testThreeFactorization() {
 		assertEquals(list(1, 2), PrimeNumbers.factorizePrimes(3));
 	}
+	
+	@Test
+	public void testFourFactorization() {
+		assertEquals(list(2, 2), PrimeNumbers.factorizePrimes(4));
+	}
 }
