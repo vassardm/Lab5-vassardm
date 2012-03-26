@@ -16,20 +16,14 @@ public class PrimeNumbers {
 
 	public static ArrayList<Integer> factorizePrimes(int i) {
 		ArrayList<Integer> listOfNums = new ArrayList<Integer>();
+		ArrayList<Integer> candiateList = new ArrayList<Integer>();
 		
-		if (i > 1) {
-			listOfNums.add(1);
+		for (int j = 1; j < i; j++) {
+			candiateList = generatePrimes(j);
+			if (candiateList.size() == 0 || candiateList.size() == 1 ) {
+				listOfNums.add(j);
+			}		
 		}
-		
-		if (i > 2) {
-			listOfNums.add(2);
-		}
-		
-		if (i > 4) {
-			listOfNums.add(3);
-		}
-		
-		
 		return listOfNums;
 	}
 	

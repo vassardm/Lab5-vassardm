@@ -78,17 +78,17 @@ public class PrimeNumbersTest {
 	
 	@Test
 	public void testFourFactorization() {
-		assertEquals(list(1, 2), PrimeNumbers.factorizePrimes(4));
+		assertEquals(list(1, 2, 3), PrimeNumbers.factorizePrimes(4));
 	}
 	
 	@Test
 	public void testSixFactorization() {
-		assertEquals(list(1, 2, 3), PrimeNumbers.factorizePrimes(6));
+		assertEquals(list(1, 2, 3, 5), PrimeNumbers.factorizePrimes(6));
 	}
 	
 
 	@Test
 	public void testEightFactorization() {
-		assertEquals(list(1, 2, 3, 5), PrimeNumbers.factorizePrimes(8));
+		assertEquals(list(1, 2, 3, 5, 7), PrimeNumbers.factorizePrimes(8));
 	}
 }
